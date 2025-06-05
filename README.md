@@ -1,6 +1,11 @@
-# assets
-BABYLON.SceneLoader.Append("https://github.com/sty-tech/assets/Untitled.glb", scene, function (scene) {
+# Navigate to your project root
+cd D:\coding\proproject
 
-    // do something with the scene
+# Initialize Git (if not already done)
+git init
 
-});
+# Stage your GLB file
+git add models/Untitled.glb
+
+# Commit
+git commit -m "Add 3D model for Babylon.js"
